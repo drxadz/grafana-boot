@@ -1,0 +1,70 @@
+2024-02-13 01:37:31,353 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-02-13 01:37:31,355 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2024-02-13 01:37:31,369 INFO RPC interface 'supervisor' initialized
+2024-02-13 01:37:31,370 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2024-02-13 01:37:31,370 INFO supervisord started with pid 1
+2024-02-13 01:37:32,380 INFO spawned: 'php-fpm' with pid 2474
+2024-02-13 01:37:32,388 INFO spawned: 'nginx' with pid 2475
+2024-02-13 01:37:32,395 INFO spawned: 'nslcd' with pid 2481
+2024-02-13 01:37:32,401 INFO spawned: 'vsftpd' with pid 2482
+2024-02-13 01:37:32,407 INFO spawned: 'sftp' with pid 2489
+2024-02-13 01:37:32,462 INFO exited: vsftpd (exit status 2; not expected)
+2024-02-13 01:37:32,510 INFO exited: nginx (exit status 1; not expected)
+2024-02-13 01:37:33,722 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-13 01:37:33,728 INFO spawned: 'nginx' with pid 2512
+2024-02-13 01:37:33,730 INFO success: nslcd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-13 01:37:33,736 INFO spawned: 'vsftpd' with pid 2513
+2024-02-13 01:37:33,737 INFO success: sftp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-13 01:37:33,808 INFO exited: vsftpd (exit status 2; not expected)
+2024-02-13 01:37:33,832 INFO exited: nginx (exit status 1; not expected)
+2024-02-13 01:37:35,848 INFO spawned: 'nginx' with pid 2524
+2024-02-13 01:37:35,854 INFO spawned: 'vsftpd' with pid 2525
+2024-02-13 01:37:35,915 INFO exited: vsftpd (exit status 2; not expected)
+2024-02-13 01:37:35,951 INFO exited: nginx (exit status 1; not expected)
+2024-02-13 01:37:38,975 INFO spawned: 'nginx' with pid 2536
+2024-02-13 01:37:38,981 INFO spawned: 'vsftpd' with pid 2537
+2024-02-13 01:37:39,030 INFO exited: vsftpd (exit status 2; not expected)
+2024-02-13 01:37:39,063 INFO gave up: vsftpd entered FATAL state, too many start retries too quickly
+2024-02-13 01:37:39,068 INFO exited: nginx (exit status 1; not expected)
+2024-02-13 01:37:40,072 INFO gave up: nginx entered FATAL state, too many start retries too quickly
+2024-02-13 01:38:12,977 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-02-13 01:38:12,979 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2024-02-13 01:38:12,996 INFO RPC interface 'supervisor' initialized
+2024-02-13 01:38:12,997 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2024-02-13 01:38:12,997 INFO supervisord started with pid 1
+2024-02-13 01:38:14,011 INFO spawned: 'php-fpm' with pid 2480
+2024-02-13 01:38:14,017 INFO spawned: 'nginx' with pid 2481
+2024-02-13 01:38:14,023 INFO spawned: 'nslcd' with pid 2482
+2024-02-13 01:38:14,029 INFO spawned: 'vsftpd' with pid 2488
+2024-02-13 01:38:14,034 INFO spawned: 'sftp' with pid 2497
+2024-02-13 01:38:14,088 INFO exited: vsftpd (exit status 2; not expected)
+2024-02-13 01:38:14,136 INFO exited: nginx (exit status 1; not expected)
+2024-02-13 01:38:15,348 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-13 01:38:15,355 INFO spawned: 'nginx' with pid 2517
+2024-02-13 01:38:15,356 INFO success: nslcd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-13 01:38:15,361 INFO spawned: 'vsftpd' with pid 2518
+2024-02-13 01:38:15,362 INFO success: sftp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-13 01:38:15,420 INFO exited: vsftpd (exit status 2; not expected)
+2024-02-13 01:38:15,456 INFO exited: nginx (exit status 1; not expected)
+2024-02-13 01:38:17,473 INFO spawned: 'nginx' with pid 2529
+2024-02-13 01:38:17,480 INFO spawned: 'vsftpd' with pid 2530
+2024-02-13 01:38:17,540 INFO exited: vsftpd (exit status 2; not expected)
+2024-02-13 01:38:17,576 INFO exited: nginx (exit status 1; not expected)
+2024-02-13 01:38:20,596 INFO spawned: 'nginx' with pid 2541
+2024-02-13 01:38:20,601 INFO spawned: 'vsftpd' with pid 2542
+2024-02-13 01:38:20,660 INFO exited: vsftpd (exit status 2; not expected)
+2024-02-13 01:38:20,693 INFO gave up: vsftpd entered FATAL state, too many start retries too quickly
+2024-02-13 01:38:20,698 INFO exited: nginx (exit status 1; not expected)
+2024-02-13 01:38:21,702 INFO gave up: nginx entered FATAL state, too many start retries too quickly
+2024-02-13 01:40:30,292 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-02-13 01:40:30,295 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2024-02-13 01:40:30,312 INFO RPC interface 'supervisor' initialized
+2024-02-13 01:40:30,312 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2024-02-13 01:40:30,313 INFO supervisord started with pid 1
+2024-02-13 01:40:31,320 INFO spawned: 'php-fpm' with pid 2479
+2024-02-13 01:40:31,327 INFO spawned: 'nginx' with pid 2480
+2024-02-13 01:40:31,336 INFO spawned: 'nslcd' with pid 2486
+2024-02-13 01:40:31,345 INFO spawned: 'vsftpd' with pid 2492
+2024-02-13 01:40:31,355 INFO spawned: 'sftp' with pid 2502
+2024-02-13 01:40:31,405 INFO exited: vsftpd (exit status 2; not expected)
+2024-02-13 01:40:31,441 INFO exited: nginx (exit status 1; not expected)
