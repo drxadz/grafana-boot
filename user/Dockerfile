@@ -9,8 +9,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends curl python3 in
 
 RUN mkdir /home/stella/demo && echo "#!/bin/bash" >> /home/stella/demo/demo-script.sh && \
 	echo "echo 'hellow world'" >> //home/stella/demo/demo-script.sh && \
-    echo 'manoj ALL=(ALL) NOPASSWD: /bin/bash /home/stella/demo/demo-script.sh' >> /etc/sudoers
-
+    echo 'manoj ALL=(ALL) NOPASSWD: /bin/bash /home/stella/demo/demo-script.sh' >> /etc/sudoers && \
+	chmod +x /home/stella/demo/demo-script.sh && \
+	echo "{flag here}" >> /root/root.txt
 RUN mkdir /var/run/sshd
 
 CMD ["/usr/sbin/sshd", "-D"]
